@@ -1,0 +1,301 @@
+@import url(@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap');
+);
+
+/* globally kaj korate eigula use korte hobe */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* for mozila firefox */
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* always img call korte hobe jate image na fete jay */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+/* header */
+header {
+    background-image: url(./images/Cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0000001a;
+    background-blend-mode: multiply;
+    padding: 15px 0;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.logo {
+    width: 20%;
+    flex-basis: 20%;
+}
+
+.logo h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.logo h2 span {
+    font-size: 15px;
+    font-weight: 100;
+    display: block;
+}
+
+/* nav */
+nav {
+    width: 80%;
+    flex-basis: 80%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 7px;
+    font-size: 17px;
+    font-weight: 500;
+    border: 2px solid #fff0;
+    border-radius: 25px;
+}
+
+/* banner-content */
+.banner-content {
+    width: 100%;
+    flex-basis: 100%;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.banner-content h3 {
+    color: white;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.banner-content span {
+    width: 100px;
+    height: 5px;
+    display: block;
+    background: red;
+    margin: 20px auto;
+}
+
+.banner-content h1 {
+    font-size: 70px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+}
+
+.banner-content a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 30px;
+    display: inline-block;
+    background-color: red;
+    margin: 30px 0 0;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+/* event */
+.event {
+    padding: 70px 0;
+    margin: auto;
+
+}
+
+.event h2 {
+    color: black;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.event span {
+    width: 100px;
+    height: 5px;
+    display: block;
+    background: red;
+    margin: 20px auto 30px;
+}
+
+/* feature */
+.feature {}
+
+.col1 {
+    width: 50%;
+    flex-basis: 50%;
+    padding: 0 35px;
+}
+
+.col1 img {
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 10px 10px 1px rgba(17, 17, 17, 0.178);
+}
+
+.col1 h2 {
+    color: black;
+    padding: 30px 0 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.col1 p {
+    font-size: 17px;
+    color: black;
+}
+
+.col1 a {
+    color: blue;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 15px auto 0;
+    display: inline-block;
+    font-weight: 600;
+}
+
+/* Explore Section */
+.explore-section {
+    margin: 50px 0;
+    padding: 150px 0;
+    background-image:
+        url(./images/father.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #0000ff6b;
+}
+
+.explore {
+    display: flex;
+    justify-content: end;
+}
+
+.small-explore {
+    width: 50%;
+}
+
+.explore-section h2 {
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.explore-section span {
+    width: 100px;
+    height: 5px;
+    display: block;
+    background: red;
+    margin: 30px 0;
+}
+
+.explore-section p {
+    font-size: 17px;
+    color: #f1e9e9;
+    margin: 5px 0 35px 0;
+}
+
+.explore-section a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* text with image */
+
+.picture-section {
+    padding: 100px 0;
+}
+
+.box {
+    width: 33.33%;
+
+}
+
+.box-item {
+    padding: 20px;
+}
+
+.box-item h3 {
+    font-size: 35px;
+    text-transform: uppercase;
+
+}
+
+.box-item span {
+    width: 150px;
+    height: 5px;
+    display: block;
+    background: red;
+    margin: 30px 0;
+}
+
+.box-item p {
+    font-size: 17px;
+    margin: 30px 0;
+}
+
+.box-item a {
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2px;
+
+}
+
+.small-pic {
+    height: 350px;
+    object-fit: cover;
+    margin: 0 0 35px 0;
+
+}
+
+.big-pic {
+    height: 500px;
+    object-fit: cover;
+    margin: 0 0 35px 0;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    padding: 100px 0;
+    background-color: rgb(231, 16, 16);
+    line-height: 10px;
+    font-size: 17px;
+    color: white;
+}
